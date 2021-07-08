@@ -23,6 +23,7 @@
         "build:mta": "rimraf resources mta_archives && mbt build --mtar archive",
         "undeploy": "cf undeploy sap-btp-sapui5 --delete-services --delete-service-keys"
     },
+    
     "devDependencies": {
         "@ui5/cli": "^2.11.1",
         "@ui5/fs": "^2.0.6",
